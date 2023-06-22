@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonzalo Lopez</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="w-screen h-screen bg-black flex flex-col overflow-hidden">
+
+    <header class="absolute items-center px-12 h-20 top-6 w-full flex flex-row justify-end z-20">
+        <a href="index.html"
+            class="nav_name">
+            GONZALO
+        </a>
+    </header>
+
+    <button class="left-12 absolute dropdown dropdown-bottom z-40 top-12">
+        <label  class=" swap swap-rotate">
+
+            <!-- this hidden checkbox controls the state -->
+            <input id="bMenu" type="checkbox" />
+
+            <!-- hamburger icon -->
+            <img src="assets/img/menu.svg" class="swap-off fill-current w-10" alt="">
+
+            <!-- close icon -->
+            <img src="assets/img/close.svg" class="swap-on fill-current w-10" alt="">
+
+        </label>
+    </button>
+
+    <aside id="pMenu" class="hidden absolute flex flex-col px-12 pt-28 bg-black bg-opacity-90 w-full h-full z-20 text-white space-y-3">
+
+        <p class="font-bold text-2xl me-1 font-anton">GONZALO
+            <label class="text_developer text-2xl text-transparent font-anton"> LOPEZ
+
+            </label>
+        </p>
+        <p class="text-sm font-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet odit eos ea, quia voluptatum qui perspiciatis, voluptatibus nisi dolorem ipsa incidunt distinctio corporis, laboriosam magnam saepe quam sed ex commodi?
+        </p>
+        <p class="font-bold text-xl font-anton">
+            QUOTE
+        </p>
+        <p class="text-sm">
+            "Mr, Professor, I am not what you call a civilized man. I have completely broken with the whole society. I don't obey your rules, and you don't have the right to ever invoke them on me."
+            <p class="text-yellow-300 leading-4 font-bold text-sm">
+                Twenty thousand Leagues Under the Sea -
+                <label class="font-bold text-sm text-white">
+                    Jules Verne
+                </label>
+            </p>
+
+        </p>
+        <p class="font-bold text-xl font-anton">
+            SOCIAL MEDIA
+        </p>
+        <ol class="flex flex-row space-x-3">
+            <li>
+                <a href="https://github.com/jaglux12" target="_blank">
+                    <img src="assets/img/github.svg" class="w-7" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100004713767976"  target="_blank">
+                    <img src="assets/img/facebook.svg" class="w-7" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/gonzalolopez3471/" target="_blank">
+                    <img src="assets/img/instagram.svg" class="w-7" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/gonzalo-lopez-172a47246/" target="_blank">
+                    <img src="assets/img/linkedin.svg" class="w-7" alt="">
+                </a>
+            </li>
+        </ol>
+
+    </aside>
+
+    <div class="splide h-full z-0" role="group">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide h-screen overflow-hidden">
+                    <video src="assets/video/main.mp4" class="carousel_video" autoplay loop muted></video>
+                    <div class="carousel_pText">
+                        <p class="carousel_name">
+                            GONZALO LOPEZ
+                        </p>
+                        <p class="carousel_subText">
+                            FRONT-END
+                        </p>
+                        <h2 class="text_developer carousel_capText">
+                            DEVELOPER
+                        </h2>
+                        <p class="carousel_desc">
+                            +2 years of experience, many completed projects, senior technician in software development and more.
+                        </p>
+                        <button class="carousel_button">
+                            More info
+                        </button>
+                    </div>
+                </li>
+                <li class="splide__slide overflow-hidden">
+                    <video src="assets/video/about_me.mp4" class="carousel_video" autoplay loop muted></video>
+                    <div class="carousel_pText">
+                        <h2 class="text_aboutme carousel_capText">
+                            ABOUT
+                        </h2>
+                        <p class="carousel_subText">
+                            ME
+                        </p>
+
+                        <p class="carousel_desc">
+                            Hi, My name is Gonzalo Lopez, i am from Argentina. I am frontend developer. i am 21 years old and i am passionate about programming.
+                        </p>
+                        <button class="carousel_button">
+                            Contact me
+                        </button>
+                    </div>
+                </li>
+                <li class="splide__slide overflow-hidden">
+                    <video src="assets/video/skills.mp4" class="carousel_video" autoplay loop muted></video>
+                    <div class="carousel_pText">
+                        <p class="carousel_subText">
+                            MY
+                        </p>
+                        <h2 class="text_aboutme carousel_capText">
+                            SKYLLS
+                        </h2>
+                        <p class="carousel_desc">
+                            I love learning new technologies and creating things. Not only websites, but also tools and great user experiences.
+                        </p>
+                        <button class="carousel_button">
+                            More info
+                        </button>
+                    </div>
+                </li>
+                <li class="splide__slide overflow-hidden">
+                    <video src="assets/video/proyects.mp4" class="carousel_video" autoplay loop muted></video>
+                    <div class="carousel_pText">
+                        <p class="carousel_subText">
+                            MY
+                        </p>
+                        <h2 class="text_aboutme carousel_capText">
+                            PROYECTS
+                        </h2>
+                        <ul class="py-4 mb-11">
+                            <li class="flex text-sm">
+                                <a href="" class="flex">
+                                    <img src="assets/img/globe-solid.svg" class="w-4 me-3" alt="">
+                                    Skilled e-learning
+                                    <img src="assets/img/link-solid.svg" class="w-4 ms-3" alt="">
+                                </a>
+                            </li>
+                            <li class="flex text-sm">
+                                <a href="" class="flex">
+                                    <img src="assets/img/globe-solid.svg" class="w-4 me-3" alt="">
+                                    Turismo ITC
+                                    <img src="assets/img/link-solid.svg" class="w-4 ms-3" alt="">
+                                </a>
+                            </li>
+                            <li class="flex text-sm">
+                                <a href="" class="flex">
+                                    <img src="assets/img/globe-solid.svg" class="w-4 me-3" alt="">
+                                    Monkey gym
+                                    <img src="assets/img/link-solid.svg" class="w-4 ms-3" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <button class="carousel_button">
+                            More proyects
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="js/splide.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
